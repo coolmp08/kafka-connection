@@ -56,6 +56,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>io.devsense.kafka_connection.KafkaConnectionApplication</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
